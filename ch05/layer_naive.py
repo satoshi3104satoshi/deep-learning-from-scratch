@@ -18,7 +18,7 @@ class MulLayer:
         dy = dout * self.x
 
         return dx, dy
-
+        
 
 class AddLayer:
     def __init__(self):
