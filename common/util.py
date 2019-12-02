@@ -32,7 +32,7 @@ def shuffle_dataset(x, t):
 
     return x, t
 
-def conv_output_size(input_size, filter_size, stride=1, pad=0):
+    def conv_output_size(input_size, filter_size, stride=1, pad=0):
     return (input_size + 2*pad - filter_size) / stride + 1
 
 
