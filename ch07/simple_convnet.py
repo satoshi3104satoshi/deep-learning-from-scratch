@@ -24,7 +24,7 @@ class SimpleConvNet:
         'relu'または'he'を指定した場合は「Heの初期値」を設定
         'sigmoid'または'xavier'を指定した場合は「Xavierの初期値」を設定
     """
-    def __init__(self, input_dim=(1, 28, 28),
+    def __init__(self, input_dim =(1, 28, 28),
                  conv_param={'filter_num':30, 'filter_size':5, 'pad':0, 'stride':1},
                  hidden_size=100, output_size=10, weight_init_std=0.01):
         filter_num = conv_param['filter_num']
